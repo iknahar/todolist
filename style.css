@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eff3f6;
+  min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-box {
+  width: 350px;
+  height: 600px;
+  background: linear-gradient(0deg, #e6eef8, #e6eef8), #cfd8dc;
+  box-shadow: -16px -16px 40px rgba(253, 255, 255, 0.8),
+    16px 16px 40px rgba(187, 195, 206, 0.6);
+  border-radius: 16px;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.oval {
+  width: 350px;
+  background: #058eba;
+  border-radius: 22px;
+  clip-path: ellipse(53% 20% at 47% 0%);
+  padding-top: 598px;
+  /* position: absolute;
+  z-index: 9; */
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* z-index: 10;
+  position: absolute; */
+  padding: 5px 40px;
+  color: #ffffff;
+}
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* z-index: 10;
+  position: absolute; */
+  padding: 28px 40px;
+  /* padding-top: 26px; */
+  color: #ffffff;
+}
+
+.task-box {
+  width: 350px;
+  height: 59px;
+  background: linear-gradient(0deg, #e6eef8, #e6eef8), #cfd8dc;
+  box-shadow: inset -4px -4px 12px rgba(253, 255, 255, 0.8),
+    inset 4px 4px 12px rgba(187, 195, 206, 0.6);
+  border-radius: 16px;
+}
