@@ -16,15 +16,19 @@ body {
 }
 
 .white-box {
-  width: 350px;
-  height: 600px;
+  /* width: 350px; */
+  /* height: 600px; */
   background: linear-gradient(0deg, #e6eef8, #e6eef8), #cfd8dc;
   box-shadow: -16px -16px 40px rgba(253, 255, 255, 0.8),
     16px 16px 40px rgba(187, 195, 206, 0.6);
   border-radius: 16px;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 20px 30px;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;s */
+  align-items: center;
 }
 .oval {
   width: 350px;
@@ -37,8 +41,8 @@ body {
 }
 
 h1 {
-  /* font-weight: bold; */
-  font-weight: lighter;
+  font-weight: bold;
+  /* font-weight: lighter; */
   font-size: 24px;
   /* z-index: 10;
   position: absolute; */
@@ -50,31 +54,89 @@ h1 {
 h3 {
   font-weight: lighter;
   /* font-weight: bold; */
-  font-size: 18px;
+  font-size: 20px;
   /* z-index: 10;
   position: absolute; */
   /* padding: 28px 40px; */
   /* padding-top: 26px; */
   /* color: #ffffff;*/
-  margin: 25px 0% 25px 0%;
+  margin-bottom: 30px;
   color: #058eba;
 }
 
 .task-box {
-  width: 320px;
+  width: 30rem;
   height: 60px;
   background: linear-gradient(0deg, #e6eef8, #e6eef8), #cfd8dc;
-  box-shadow: inset -4px -4px 12px rgba(253, 255, 255, 0.8),
-    inset 4px 4px 12px rgba(187, 195, 206, 0.6);
+  box-shadow: -4px -4px 12px rgba(253, 255, 255, 0.8),
+    4px 4px 12px rgba(187, 195, 206, 0.6);
   border-radius: 16px;
   display: flex;
   align-items: center;
   padding: 1% 3%;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 p {
   font-weight: lighter;
   font-size: 18px;
   color: #058eba;
+}
+
+.plus {
+  background-color: #058eba;
+  padding: 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  width: 20rem;
+  height: 60px;
+  padding: 0 20px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  border-radius: 16px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  color: #8d909b;
+}
+
+input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+#new-task-button {
+  border: none;
+  /* background-color: #058eba; */
+  resize: none;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 20px;
+  margin-left: 5px;
+  border-radius: 16px;
+  width: auto;
+
+  background: linear-gradient(145deg, #5bc6ff, #4da7db);
+  box-shadow: 6px 6px 13px #489ecf2a, -6px -6px 13px #62d5ff3b;
+}
+
+#new-task-button:hover {
+  background: #4da7db;
+  box-shadow: inset 6px 6px 13px #489dcf, inset -6px -6px 13px #62d5ff;
+}
+.new-input {
+  width: 30rem;
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-between;
 }
