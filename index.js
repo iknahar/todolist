@@ -9,4 +9,5 @@ let myDate = ((dateObj.getUTCDate()+ " "+ monthNames[(dateObj.getMonth())] + " "
 
 document.getElementById("date").innerText= myDate
 
+let thisVaris = document.getElementById("date");
 
