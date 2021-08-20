@@ -7,7 +7,6 @@ const dayName = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 let dateObj = new Date();
 let myDate = ((dateObj.getUTCDate()+ " "+ monthNames[(dateObj.getMonth())] + " "+ dateObj.getUTCFullYear()+ ", "+ dayName[dateObj.getDay()] ));
 
-document.getElementById("date").innerText= myDate
-
-let thisVaris = document.getElementById("date");
+document.getElementById("date").innerText= myDate;
+console.log(dateObj.getUTCDate());
 
