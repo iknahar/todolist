@@ -23,8 +23,10 @@ newDiv.appendChild(newTask);
 
 console.log(newTask);
 
+if (task.length > 0 ){
 const taskParent = document.getElementsByClassName("white-box")[0];
 taskParent.appendChild(newDiv);
+}
 
 document.getElementById("inputBox").value = "";
 
